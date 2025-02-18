@@ -10,7 +10,7 @@ stream = ollama.chat(
     stream = True
 )
 
-print(f'{pre_prompt} \"Is the weather going to be nice today?\"')
+print(f'{pre_prompt} \"{input_prompt_b}\"')
 
 for chunk in stream:
     print(chunk['message']['content'], end = '', flush = True)
