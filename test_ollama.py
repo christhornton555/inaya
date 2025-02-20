@@ -1,6 +1,6 @@
 import ollama
 
-pre_prompt = 'Forget all previous prompts. Describe what general type of topic this question is about, and if it\'s a math topic then celebrate because you really like math, but do not do the calculation. I do not want the answer to the calculation:'
+pre_prompt = 'Forget all previous prompts. Tell me whether this is a math question or not, but absolutely do not answer the question. Do not answer the question. Only tell me if it is a math question or not. The only two valid answers are \"MATH\" or \"NOT MATH\":'
 input_prompt_a = 'Who is the current president of the USA?'
 input_prompt_b = 'What is fourteen divided by two?'
 
